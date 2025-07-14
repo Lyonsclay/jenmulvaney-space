@@ -6,53 +6,64 @@
   <title>Jen Mulvaney | Look Up Coaching</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&family=Open+Sans&display=swap" rel="stylesheet">
   <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Open Sans', sans-serif;
-      background: linear-gradient(to top, #f0f9ff, #e0f7fa);
-      color: #333;
-      text-align: center;
-      line-height: 1.6;
-    }
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
 
-    header {
-      background: url('https://source.unsplash.com/1600x600/?stars,sky,nature') no-repeat center center;
-      background-size: cover;
-      padding: 80px 20px;
-      color: white;
-    }
+        background: url('public/artem-balashevsky-VkirwC2YH50-unsplash.jpg') no-repeat center center; /* Update this path to your image */
 
-    h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 3em;
-      margin-bottom: 0.2em;
-    }
+        background-size: cover;
+        /* background: linear-gradient(to top, #ccebff, #a7e8f1); */
+        /* background: linear-gradient(to top, #f0f9ff, #e0f7fa); */
+        color: #333;
+        text-align: center;
+        line-height: 1.6;
+        min-height: 100vh;
+        display: flex; /* Enable Flexbox */
+        flex-direction: column; /* Stack children vertically */
+      }
 
-    p.lead {
-      font-size: 1.3em;
-      max-width: 700px;
-      margin: 0 auto;
-    }
+      header {
+        /* background: url('public/artem-balashevsky-VkirwC2YH50-unsplash.jpg') no-repeat center center; /* Update this path to your image */ */
+        /* background-size: cover; */
+        padding: 80px 20px;
+        color: white;
+      }
 
-    section {
-      padding: 60px 20px;
-      max-width: 800px;
-      margin: 0 auto;
-    }
+      h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 3em;
+        margin-bottom: 0.2em;
+      }
 
-    .calendly-inline-widget {
-      margin-top: 40px;
-    }
+      p.lead {
+        font-size: 1.3em;
+        max-width: 700px;
+        margin: 0 auto;
+      }
 
-    footer {
-      padding: 20px;
-      background: #e0f7fa;
-      color: #555;
-    }
-  </style>
-</head>
-<body>
+      section {
+        padding: 60px 20px;
+        max-width: 800px;
+        margin: 0 auto;
+        flex-grow: 1; /* Allow section to grow and take available space */
+
+        color: darkslategray;
+      }
+
+      .calendly-inline-widget {
+        margin-top: 120px;
+      }
+
+      footer {
+        padding: 20px;
+        background: #e0f7fa;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
 
   <header>
     <h1>LOOK UP</h1>
@@ -60,14 +71,16 @@
   </header>
 
   <section>
+    <h2>WELCOME</h2>
+
     <p>
-      Looking up is something our ancestors did often — to track the sun, the moon, and the stars. In a world that constantly pulls our gaze downward, this simple act is revolutionary.
+      I would love to talk to you, to get to know your story, to hear your
     </p>
     <p>
-      The time is now to pause, breathe, and re-member who you are. You are nature. You are ancient wisdom. You are light in motion.
+      struggles and your triumphs and to hold a mirror for you to see
     </p>
     <p>
-      I offer good vibe sessions to guide you back to yourself — rooted in presence, nature, and truth.
+      yourself as you truly are.
     </p>
 
     <!-- Calendly inline widget begin -->
